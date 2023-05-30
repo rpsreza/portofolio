@@ -16,7 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-emilia": "^5.0.5",
+    "@lekoarts/gatsby-theme-emilia": "file:./gatsby-theme-emilia",
     "gatsby": "^5.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
     "gatsby-plugin-sitemap": "^6.9.0",

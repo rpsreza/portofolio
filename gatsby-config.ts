@@ -1,7 +1,7 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
-import "dotenv/config"
+import type { GatsbyConfig, PluginRef } from 'gatsby';
+import 'dotenv/config';
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -19,7 +19,25 @@ const config: GatsbyConfig = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `Reza Pourdian`,
+        location: `Iran`,
+        socialMedia: [
+          {
+            title: `Twitter`,
+            href: `https://www.twitter.com/RPourdian`,
+          },
+          {
+            title: `LinkedIn`,
+            href: `https://www.linkedin.com/in/reza-pourdian-87a87565/`,
+          },
+          {
+            title: `ArtStation`,
+            href: `https://www.artstation.com/rps`,
+          },
+        ],
+        showThemeAuthor: false
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
@@ -63,6 +81,6 @@ const config: GatsbyConfig = {
       },
     },
   ].filter(Boolean) as Array<PluginRef>,
-}
+};
 
-export default config
+export default config;
