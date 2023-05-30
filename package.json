@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "emilia",
-  "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.",
-  "version": "0.3.14",
-  "author": "LekoArts",
+  "name": "rpsreza-portofolio",
+  "description": "Reza Pourdian Web Portofolio",
+  "version": "0.0.1",
+  "author": "Mehrad Rousta <mehrad@protonmail.com>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emilia",
   "scripts": {

@@ -14,7 +14,7 @@ const NotFound = (_props: PageProps) => (
         Oh, no!
         <br />
         You found a page that doesn't exist.{` `}
-        <TLink as={Link} to="/">
+        <TLink as={Link} href="/">
           Do you want to visit the homepage?
         </TLink>
       </Themed.p>
